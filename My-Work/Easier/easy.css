@@ -1,16 +1,62 @@
 body {
     background-color: rgb(177, 226, 241);
     font-family: 'Comfortaa', cursive;
+    text-align: center;
 }
 
-p {
+.bigtext {
     padding: 52px 240px;
-    text-align: center;
     background-color: rgb(64, 151, 151);
     color:rgb(240, 240, 240);
     margin-left: 124px;
     margin-right: 124px;
     font-size: 16pt;
+    border: 3px solid #292e74;
 }
 
+div.relative {
+    position: relative;
+    width: 550px;
+    height: 200px;
+    border: 3px solid #292e74;
+    line-height: 40px;
+    margin-left: 124px;
+} 
+  
+div.article {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 90%;
+    line-height: 40px;
+    height: 130px;
+    border: 3px solid #292e74;
+}
 
+div.upper {
+    position: absolute;
+    bottom: 41%;
+    right: 5%;
+    width: 90%;
+    border: 3px solid #292e74;
+    line-height: 30px;
+}
+
+div.lower {
+    position: absolute;
+    bottom: 6%;
+    right: 5%;
+    width: 90%;
+    border: 3px solid #292e74;
+    line-height: 30px;
+}
+
+div.bkgdclr {
+    background-color: rgb(64, 151, 151);
+    color:rgb(240, 240, 240);
+}
+
+div.clrbkgd {
+    background-color: rgb(4, 94, 136);
+    color:rgb(240, 240, 240);
+}
