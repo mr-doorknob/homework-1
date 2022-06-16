@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(177, 226, 241);
+}
+
+p {
+    padding: 30px 240px;
+    text-align: center;
+    background-color: rgb(64, 151, 151);
+    color:rgb(240, 240, 240);
+    margin-left: 124px;
+    margin-right: 124px;
+}
+
+
