@@ -16,11 +16,12 @@ body {
 
 div.relative {
     position: relative;
-    width: 550px;
+    width: 850px;
     height: 200px;
     border: 3px solid #292e74;
     line-height: 40px;
     margin-left: 124px;
+    float: left;
 } 
   
 div.article {
@@ -59,4 +60,23 @@ div.bkgdclr {
 div.clrbkgd {
     background-color: rgb(4, 94, 136);
     color:rgb(240, 240, 240);
+}
+
+div.right {
+    position: relative;
+    width: 547px;
+    height: 200px;
+    border: 3px solid #292e74;
+    line-height: 40px;
+    float: left;
+    margin-left: 35px;
+    margin-bottom: 25px;
+}
+
+p {
+    clear: both;
+}
+
+.airpods {
+    margin-top: 50px;
 }
